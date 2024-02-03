@@ -1,13 +1,4 @@
 /*============================================ 
-# Template Name: Paylio 
-# Version: 1.0
-# Date: 26/04/2022
-# Author: pixelaxis
-# Author URI: https://themeforest.net/user/pixelaxis/portfolio
-# Developed By: Pranto
-# Description: Paylio - Money Transfer and Online Payments HTML Template
-============================================*/
-/*============================================ 
 ======== Table of Css Content =========
 # Typography
 # Normalize 
@@ -21,12 +12,12 @@
 :root {
   --body-font: "Jost", sans-serif;
   --body-color: #FFFFFF;
-  --primary-color: #4743c9;
-  --secondary-color: #00FE83;
-  --head-color: #0c266c;
+  --primary-color: #214963;
+  --secondary-color: #005086;
+  --head-color: #0d1d28;
   --section-primary-color: #f2f3f9;
   --section-color: #f5f6fc;
-  --para-color: #0c266c;
+  --para-color: #13212a;
   --border-color: #868ea5;
   --hover-alt-color: #291b6b;
 }
@@ -1480,6 +1471,7 @@ label {
   border-radius: 20px;
   padding: 40px 20px 33px;
   transition: 0.3s;
+  min-height: 450px;
 }
 
 .global-payment .single-item:hover {
